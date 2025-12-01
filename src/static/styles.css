@@ -158,10 +158,30 @@ footer {
   font-size: 14px;
 }
 
+
 .participants-list {
   margin: 0 0 0 18px;
   padding: 0;
   list-style-type: disc;
+}
+
+/* Hide bullet points for participants */
+.participants-list.no-bullets {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #ff1744;
 }
 
 .participants-list li {
